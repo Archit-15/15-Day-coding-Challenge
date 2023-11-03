@@ -1,6 +1,7 @@
 // 53. Maximum Subarray (Kadane's Algo)
 #include<iostream>
 #include<vector>
+#include<bits/stdc++.h>
 using namespace std;
 
 int kadanes(vector<int> &arr){

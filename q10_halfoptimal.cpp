@@ -31,7 +31,7 @@ int uniquePaths(int m, int n)
     int i = 0;
     int j = 0;
     vector<vector<int>> dp(m, vector<int>(n, -1)); // creates a 2d vector
-    // with m rows and n elements eaech initialized to -1
+    // with m rows and n elements each initialized to -1
     int ans = up(i, j, m, n, dp);
     return ans;
 }
